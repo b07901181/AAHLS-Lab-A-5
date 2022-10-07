@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Oct  1 20:11:47 2022
+# Process ID: 5972
+# Current directory: D:/programs/Xlinx/2022_HLS_Projects/Lab_Vitis/Lab_A/deadlock/proj/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/example/xsim_script.tcl}
+# Log file: D:/programs/Xlinx/2022_HLS_Projects/Lab_Vitis/Lab_A/deadlock/proj/solution1/sim/verilog/xsim.log
+# Journal file: D:/programs/Xlinx/2022_HLS_Projects/Lab_Vitis/Lab_A/deadlock/proj/solution1/sim/verilog\xsim.jou
+# Running On: LAPTOP-PSG0CGI8, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16859 MB
+#-----------------------------------------------------------
+source xsim.dir/example/xsim_script.tcl
+# xsim {example} -autoloadwcfg -tclbatch {example.tcl}
+Time resolution is 1 ps
+source example.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 4 [0.00%] @ "127000"
+// RTL Simulation : 1 / 4 [82.35%] @ "860000"
+// RTL Simulation : 2 / 4 [82.35%] @ "1194000"
+// RTL Simulation : 3 / 4 [82.35%] @ "1567000"
+// RTL Simulation : 4 / 4 [100.00%] @ "1901000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 1980990 ps : File "D:/programs/Xlinx/2022_HLS_Projects/Lab_Vitis/Lab_A/deadlock/proj/solution1/sim/verilog/example.autotb.v" Line 269
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Oct  1 20:11:48 2022...

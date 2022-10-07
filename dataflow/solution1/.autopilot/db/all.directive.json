@@ -1,0 +1,35 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "diamond",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "D:\/programs\/Xlinx\/2022_HLS_Projects\/Lab_Vitis\/Lab_A\/dataflow\/solution1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "diamond"
+              }]
+          }
+        },
+        {
+          "functionName": "diamond",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "D:\/programs\/Xlinx\/2022_HLS_Projects\/Lab_Vitis\/Lab_A\/dataflow\/solution1\/csynth.tcl",
+          "sourceLine": "16",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "diamond"
+              }]
+          }
+        }
+      ]
+    }]}
