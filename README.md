@@ -3,7 +3,7 @@ Dataflow Debug and Optimization (Dataflow Viewer and Deadlock Prevention)
 ## Introduction
 This project follows [Xilinx Vitis Tutorials](https://github.com/Xilinx/Vitis-Tutorials/tree/2022.1/Hardware_Acceleration/Feature_Tutorials/03-dataflow_debug_and_optimization) for dataflow debug and optimization.  
 There are two parts in the project:  
-1._How to use **Dataflow Viewer**_
+1._How to use **Dataflow Viewer**_  
 2._How to **detect deadlocks** and make **FIFO sizing**_
 ### Files
 In the file **report.pdf** there are descriptions of experiments.  
