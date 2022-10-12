@@ -9,6 +9,10 @@ There are two parts in the project:
 In the file **report.pdf** there are descriptions of experiments.  
 In the folder **\dataflow** there is a complete, finished project for Dataflow Viewer experiments.  
 In the folder **\deadlock** there is a complete, finished project for deadlock detection and FIFO sizing experiments.
+### Building
+For the two experiments, we use different building processes. If you want to open the project, please download the whole folder and:  
+1. For **Dataflow Viewer** experiment, please select folder **/dataflow** as project folder.  
+2. For **FIFO Sizing and Deadlocks** experiment, please select folder **/deadlock/proj** as project folder.
 ## Dataflow Viewer
 This part follows [Dataflow Viewer and the basics](https://github.com/Xilinx/Vitis-Tutorials/blob/2022.1/Hardware_Acceleration/Feature_Tutorials/03-dataflow_debug_and_optimization/dataflow_viewer.md).  
 We can learn how to use Dataflow Viewer in this part.
